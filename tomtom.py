@@ -54,7 +54,7 @@ def createFoliumMap(homeAdd: str, homeCoord: tuple, randAdd: str, randCoord: tup
    folium.Marker(randCoord,
                  popup='<h1>'+randAdd+'</h1><p>You begin here</p>', # When you click it, gives more information
                  tooltip='This is a random Location', # When you hover over it, gives information
-                 icon=folium.Icon(icon='home',color='red',icon_color='black')).add_to(m)
+                 icon=folium.Icon(icon='person', prefix='fa', color='blue',icon_color='black')).add_to(m)
    
    
    #folium.PolyLine()
