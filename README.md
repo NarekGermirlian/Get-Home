@@ -13,5 +13,5 @@ To run this project, run getHome.py in a terminal using ```python3 gethome.py```
 
 You will need to attach your own API Key from TomTom API. Please attach this key in **config.ini**.
 
-To get the TomTom API Key, follow [these instructions](https://developer.tomtom.com/knowledgebase/platform/articles/how-to-get-an-tomtom-api-key/) found direclty on the TomTom website.
+To get the TomTom API Key, follow [these instructions](https://developer.tomtom.com/knowledgebase/platform/articles/how-to-get-an-tomtom-api-key/) found directly on the TomTom website.
 
