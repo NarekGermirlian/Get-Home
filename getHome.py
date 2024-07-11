@@ -1,6 +1,5 @@
 import os
 import copy
-from cfonts import render
 import configparser
 
 from tomtom import structuredGeocode
@@ -11,8 +10,7 @@ from tomtom import createFoliumMap
 from tomtom import createNewAddress
 from tomtom import findRandomCoords
 
-output = render('GET HOME', colors=['red', 'yellow'], align='left')
-print(output)
+print("\nWelcome to the game Get Home! Here, you can test how well you know your directions by navigating to your home. Have fun!\n")
 
 # Create "Maps" folder if it doesn't exist.
 if not os.path.exists("Maps"):
@@ -22,7 +20,7 @@ if not os.path.exists("Maps"):
 Config = configparser.ConfigParser()
 Config.read("config.ini")
 if Config.get('TomTom', 'API_KEY')=='':
-    print("No TomTom API key detected. Please input API key into config.ini and try again.")
+    print("No TomTom API key detected. Please input API key into config.ini and try again.\n")
     quit()
     
 print("To begin, please input a starting address below (this can be changed later): ")
