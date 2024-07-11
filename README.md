@@ -9,7 +9,7 @@ This project was designed to help anyone learn the streets in their community in
 * Working with **JSON** files
 
 # Instructions to run
-To run this project, run getHome.py
+To run this project, run getHome.py in a terminal using ```python3 gethome.py``` in the folder's directory.
 
 You will need to attach your own API Key from TomTom API. Please attach this key in **config.ini**.
 
