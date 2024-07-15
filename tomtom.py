@@ -3,9 +3,7 @@ import urllib.request
 from PIL import Image
 import math
 import folium
-import webbrowser
 import random
-import os
 
 import configparser
 
@@ -63,7 +61,7 @@ def createFoliumMap(homeAdd: str, homeCoord: tuple, randAdd: str, randCoord: tup
    m.save(local_path)
 
    #Display map on user's end
-   webbrowser.open_new_tab(os.path.abspath(local_path))
+   m.show_in_browser()
 
    '''
    #Showing the path on the map (not currently finished):
