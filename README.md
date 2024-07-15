@@ -9,9 +9,16 @@ This project was designed to help anyone learn the streets in their community in
 * Working with **JSON** files
 
 # Instructions to run
+*Note: Last updated July 2024*
+
+
 To run this project, run getHome.py in a terminal using ```python3 gethome.py``` in the folder's directory.
 
-You will need to attach your own API Key from TomTom API. Please attach this key in **config.ini**. Specifically, get an API key for [TomTom's Routing API service](https://developer.tomtom.com/routing-api/documentation/tomtom-maps/routing-service).
+You will need to create your own API Key from TomTom API:
 
-To get the TomTom API Key, follow [these instructions](https://developer.tomtom.com/knowledgebase/platform/articles/how-to-get-an-tomtom-api-key/) found directly on the TomTom website.
-
+1. [Create a TomTom Developer Account](https://developer.tomtom.com/user/login).
+2. On the Developer Dashboard, press on "API & SDK Keys".
+   <img width="1510" alt="Locate API   SDK Keys" src="https://github.com/user-attachments/assets/672c02ce-499b-4498-917e-093d06ebb575">
+4. Press "Create Key" to create a new API key.
+5. **Ensure that you add ALL 'products' (APIs) for proper functionality**.
+6. Copy this key and attach it in **config.ini**.
