@@ -4,10 +4,6 @@ This project was designed to help anyone learn the streets in their community in
 
 *Note: Although this project asks for the user's home address, it is not stored and is completely kept private to the user.*
 
-# What I learned
-* Integration of **APIs** in software
-* Working with **JSON** files
-
 # Instructions to run
 *Note: Last updated July 2024*
 
